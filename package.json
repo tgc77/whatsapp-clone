@@ -1,0 +1,22 @@
+{
+  "name": "whatsapp-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^6.3.1",
+    "pdfjs-dist": "^2.1.266",
+    "webpack": "^4.35.3",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.6"
+  }
+}
